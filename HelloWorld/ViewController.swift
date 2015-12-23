@@ -21,6 +21,7 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    // Create popup with message text
     @IBAction func showMessage() {
         let alertController = UIAlertController(title: "Welcome to my first App", message: "Hello World",
             preferredStyle: UIAlertControllerStyle.Alert)
