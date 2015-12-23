@@ -14,6 +14,7 @@
 		B495A4D21C2B39A300CCF9A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B495A4D01C2B39A300CCF9A4 /* LaunchScreen.storyboard */; };
 		B495A4DD1C2B39A300CCF9A4 /* HelloWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B495A4DC1C2B39A300CCF9A4 /* HelloWorldTests.swift */; };
 		B495A4E81C2B39A300CCF9A4 /* HelloWorldUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B495A4E71C2B39A300CCF9A4 /* HelloWorldUITests.swift */; };
+		B4A2EDB11C2B4EE9002D1BBD /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = B4A2EDB01C2B4EE9002D1BBD /* README.md */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B495A4E31C2B39A300CCF9A4 /* HelloWorldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloWorldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B495A4E71C2B39A300CCF9A4 /* HelloWorldUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldUITests.swift; sourceTree = "<group>"; };
 		B495A4E91C2B39A300CCF9A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4A2EDB01C2B4EE9002D1BBD /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		B495A4BB1C2B39A200CCF9A4 = {
 			isa = PBXGroup;
 			children = (
+				B4A2EDB01C2B4EE9002D1BBD /* README.md */,
 				B495A4C61C2B39A200CCF9A4 /* HelloWorld */,
 				B495A4DB1C2B39A300CCF9A4 /* HelloWorldTests */,
 				B495A4E61C2B39A300CCF9A4 /* HelloWorldUITests */,
@@ -255,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B4A2EDB11C2B4EE9002D1BBD /* README.md in Sources */,
 				B495A4CA1C2B39A200CCF9A4 /* ViewController.swift in Sources */,
 				B495A4C81C2B39A200CCF9A4 /* AppDelegate.swift in Sources */,
 			);
@@ -481,6 +485,7 @@
 				B495A4EE1C2B39A300CCF9A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B495A4EF1C2B39A300CCF9A4 /* Build configuration list for PBXNativeTarget "HelloWorldTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +494,7 @@
 				B495A4F11C2B39A300CCF9A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B495A4F21C2B39A300CCF9A4 /* Build configuration list for PBXNativeTarget "HelloWorldUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +503,7 @@
 				B495A4F41C2B39A300CCF9A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
