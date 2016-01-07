@@ -19,9 +19,11 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MYZ-bF-L8c">
                                 <rect key="frame" x="120" y="269" width="80" height="30"/>
                                 <animations/>
-                                <color key="backgroundColor" red="1" green="0.89409002419126826" blue="0.58350728914386552" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="tintColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <state key="normal" title="Hello World"/>
+                                <state key="normal" title="Hello World">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
                                 <connections>
                                     <action selector="showMessage" destination="BYZ-38-t0r" eventType="touchUpInside" id="eA6-9h-hJA"/>
                                 </connections>
